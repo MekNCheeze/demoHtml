@@ -30,6 +30,11 @@ a:hover{
 }
 td{
     color: #3c3c39;
+    padding: 0px 15px 0px 15px;
+    
+}
+th{
+    padding: 0px 15px 0px 15px;
 }
 #brew{
     background-color: #efdba8;

@@ -1,7 +1,7 @@
 function changeTea(){
         var tea = document.getElementById('tea').value;
         var tea = String(tea).toLowerCase();
-        const mytea = tea.toLowerCase();
+        const mytea = tea.replace(/\s/g, '');
         const image = document.getElementById("teapot");
         if (mytea == 'black tea' || mytea == 'black'){
             image.src = "images/Black.png";
