@@ -1,6 +1,6 @@
 body{
     background-color: #f8e3e2;
-    text-align: center;
+    text-align: left;
     width: 50%;
     margin-top: 50px;
     margin-bottom: 150px;
@@ -8,6 +8,12 @@ body{
     margin-right: auto;
     font-family: Apple Chancery, cursive;
     font-size:xx-large;
+}
+h2{
+    text-align: center;
+}
+img{
+    text-align: center;
 }
 p{
     text-align:left;
@@ -19,4 +25,20 @@ a{
 }
 a:hover{
     color: lightyellow;
+}
+td{
+    color: #3c3c39;
+}
+#brew{
+    background-color: #efdba8;
+    text-align: center;
+    padding: 3px;
+    font-family: serif;
+    border-width:2px;
+}
+#tea{
+    background-color: #f8e3e2;
+    margin:0px;
+    border-width: 2px;
+    border-color: #3c3c39;
 }

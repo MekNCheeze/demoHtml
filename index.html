@@ -3,13 +3,43 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Tea Shop</title>
+        <script src="script.js"></script>
     </head>
     <body>
-        <h2>The Jasmine Dragon</h2><br><br>
+        <h2>The Jasmine Dragon</h2><br>
         <p>Welcome dear Traveler, please take a seat, kick your feet up and relax a while. We have the finest tea selection in the whole dynastie here, fit for an emperor!</p><br>
         <p>We have a <a href="https://www.youtube.com/watch?v=HD5YaDOctx4">music selection</a> for our tea-shop if you so please. 
-            Be welcome to enjoy it while browsing our shop and kicking back, enjoying a tea of your choosing.</p><br><br>
-        <img src="./img.jpeg" alt="Empty kettle" height="300" width="500">
-
+            Be welcome to enjoy it while browsing our shop and kicking back, enjoying a tea of your choosing.</p><br>
+        <img src="./images/img.jpeg" alt="Empty kettle" height="300" width="500"><br><br>
+        <p>Our tea selection:</p>
+        <table>
+            <tr>
+                <th>Tea</th>
+                <th>Cost</th>
+            </tr>
+            <tr>
+                <td>Black Tea</td>
+                <td>5cc</td>
+            </tr>
+            <tr>
+                <td>Jasmine Tea </td>
+                <td>7cc</td>
+            </tr>
+            <tr>
+                <td>Cherry-Blossom Tea  </td>
+                <td>7cc</td>
+            </tr>
+            <tr>
+                <td>Purple Tea</td>
+                <td>6cc</td>
+            </tr>
+        </table>
+        <br>
+        <p>Your order:</p>
+        <input id="tea" type="text"><input id="brew" type="button" value="Order" onclick="changeTea()"><br>
+        
+        <br>
+        <img  id="teapot" src="images/Plain.png" alt="I am afraid we dont have that tea in selection" heiht="300" width="300">
+        
     </body>
 </html>
